@@ -1,6 +1,6 @@
 function setup() {
-  let canvas = createCanvas(300, 300);
-  canvas.parent('sketch-container');
+  createCanvas(300, 300);
+ 
   background(220);
 }
 
