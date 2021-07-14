@@ -6,11 +6,12 @@ function setup() {
 
 function draw() {
   
-  rect(mouseX, mouseY,40,40);
+  
   
   let xLabel = document.getElementById('x-label');
   xLabel.innerText = 'X: ' + mouseX;
 
   let yLabel = document.getElementById('y-label');
   yLabel.innerText = 'Y: ' + mouseY;
+  rect(mouseX, mouseY,40,40);
 }
